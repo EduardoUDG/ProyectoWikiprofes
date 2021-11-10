@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header id="main-header" href="#">
+        <a id="logo-header" href="#">
+ <h1 class="h1">Wikiprofes 2.0</h1>
+
+    <!--Registro de Usuarios-->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1>Registro de usuario</h1>
+                <form id="FormularioParaUsuarios" method="post">
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Apodo.</label>
+                        <input type="Nombre" class="form-control" id="Nombre" aria-describedby="NombreHelp">
+                        
+
+                        <!-- Select -->
+                        <!--<label for="Materia" class="form-label">Materia que imparte el profesor.</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>-->
+
+
+<div class="row">
+    <form id="FormularioParaMaestros" method="post">
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Ingrese su nombre completo.</label>
+            <input type="Nombre" class="form-control" id="Nombre" aria-describedby="NombreHelp">
+            <div id="emailHelp" class="form-text">Su nombre sera confidencial.</div>
+            <label for="Materia" class="form-label">Ingrese su centro universitario.</label>
+            <input type="Materia" class="form-control" id="Materia" aria-describedby="MateriaHelp">
+          <label for="exampleInputEmail1" class="form-label">Ingrese una direccion de correo electronico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Su direccion de correo electronico es confidencial.</div>
+        </div>
+        <div class="mb-3 form-check">
+          <!--<input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto las politicas establecidas para solicitar un registro.</label>-->
+                        <label for="exampleInputEmail1" class="form-label">Contraseña.</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">La contraseña debe de ser de al menos 8 caracteres.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto las politicas de privacidad.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                    <button type="submit" class="btn btn-danger">Cancelar</button>
+                </form>
+            </div>
+        </div>
+        <!--<button type="submit" class="btn btn-primary">Registrar</button>-->
+      </form>
+</div>
+</div>
+    </div>
+</body>
+
+</html> 
