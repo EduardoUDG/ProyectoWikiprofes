@@ -48,6 +48,7 @@ img {
         font-size: 1.2em;
     }
 
+
 nav {
     float: right;
 }
@@ -73,7 +74,7 @@ nav {
 .flexsearch--wrapper {
     height: auto;
     width: auto;
-    max-width: 40%;
+    max-width: 45%;
     overflow: hidden;
     background: transparent;
     margin: 0;
@@ -91,7 +92,7 @@ nav {
 }
 
 .flexsearch--input {
-    width: 100%;
+    width: 65%;
 }
 
 .flexsearch {
@@ -108,7 +109,7 @@ nav {
     border-radius: 35px;
     border-style: solid;
     border-width: 5px;
-    margin-top: 15px;
+    margin-top: 40px;
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
@@ -125,8 +126,8 @@ nav {
     height: 40px;
     padding: 0;
     border: none;
-    margin-top: 20px;
-    margin-right: 5px;
+    margin-top: 45px;
+    margin-right: 150px;
     background: transparent;
     color: #888;
     font-family: Arial, Helvetica, sans-serif;
@@ -136,15 +137,15 @@ nav {
 
 .flexsearch--input:focus {
     outline: none;
-    border-color: #333;
+    border-color: rgb(99, 132, 202);
 }
 
 .flexsearch--input:focus.flexsearch--submit {
-    color: #333;
+    color: rgb(96, 125, 221);
 }
 
 .flexsearch--submit:hover {
-    color: #333;
+    color: rgb(82, 102, 194);
     cursor: pointer;
 }
 
@@ -159,7 +160,7 @@ input:-moz-placeholder {
 .h1 {
     float: left;
     margin: 25px;
-    color: #333;
+    color: rgb(45, 117, 185);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: bold;

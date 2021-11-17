@@ -1,0 +1,18 @@
+#Botones button{
+    float: left;  
+    }
+#btningreso:active{
+    margin-left: 321px;
+    margin-top: 1px;
+    width: 84px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 700px;
+}
+#btnIngreso:hover{
+    margin-top: 2px;
+}
+#btnregistro:active{
+    top: 25px;
+    position: relative;
+}
